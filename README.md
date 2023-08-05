@@ -5,7 +5,7 @@ Created by [Isabel Abonitalla](https://github.com/isabiiil)
 In an attempt to win Github's creative use challenge, I wanted to make all my commit messages into iambic pentameter. I figured imitating Shakespeare was a creative use of the version control platform. But I couldn't find anything to check my rhymes and stressed syllables and rhythmic pattern, so I decided to make that this weekend. I hope to gain octocat stickers while practicing string manipulation and API integration. 
 
 Here's what I need to check for to confirm that it is in iambic pentameter. 
-+ ten syllables per line, only two lines
++ ten syllables per line, for each pair of lines
 + alternating stressed syllables (unstressed-stressed makes one iambic foot)
 + optional ending rhyme
 

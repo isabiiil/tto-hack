@@ -6,8 +6,11 @@ export async function getWordSyllables(word) {
   try {
     const response = await fetch(`${BASE_URL}${encodeURIComponent(word)}?key=${API_KEY}`);
     const data = await response.json();
+    console.log(data);
     if (Array.isArray(data) && data.length > 0) {
-      const firstEntry = data[0];
+      const firstEntry = data[0]; // currently defaults to the first entry
+      // TODO: choose which entry to use based on the part of speech
+      // TODO: also doesn't include words like shall 
       if (firstEntry.hwi && firstEntry.hwi.hw) {
         return firstEntry.hwi.hw.split('-');
       }
